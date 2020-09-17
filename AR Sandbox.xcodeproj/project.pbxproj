@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7AB07D22513BCD900663D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB07D12513BCD900663D60 /* AppDelegate.swift */; };
+		F7AB07D42513BCD900663D60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB07D32513BCD900663D60 /* ContentView.swift */; };
+		F7AB07D62513BCD900663D60 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F7AB07D52513BCD900663D60 /* Experience.rcproject */; };
+		F7AB07D82513BCDB00663D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AB07D72513BCDB00663D60 /* Assets.xcassets */; };
+		F7AB07DB2513BCDB00663D60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AB07DA2513BCDB00663D60 /* Preview Assets.xcassets */; };
+		F7AB07DE2513BCDB00663D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AB07DC2513BCDB00663D60 /* LaunchScreen.storyboard */; };
+		F7AB07E92513BCDC00663D60 /* AR_SandboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB07E82513BCDC00663D60 /* AR_SandboxTests.swift */; };
+		F7AB07F42513BCDC00663D60 /* AR_SandboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB07F32513BCDC00663D60 /* AR_SandboxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7AB07E52513BCDC00663D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7AB07C62513BCD800663D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7AB07CD2513BCD800663D60;
+			remoteInfo = "AR Sandbox";
+		};
+		F7AB07F02513BCDC00663D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7AB07C62513BCD800663D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7AB07CD2513BCD800663D60;
+			remoteInfo = "AR Sandbox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7AB07CE2513BCD800663D60 /* AR Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR Sandbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AB07D12513BCD900663D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7AB07D32513BCD900663D60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F7AB07D52513BCD900663D60 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		F7AB07D72513BCDB00663D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7AB07DA2513BCDB00663D60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7AB07DD2513BCDB00663D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7AB07DF2513BCDB00663D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AB07E42513BCDB00663D60 /* AR SandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR SandboxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AB07E82513BCDC00663D60 /* AR_SandboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_SandboxTests.swift; sourceTree = "<group>"; };
+		F7AB07EA2513BCDC00663D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AB07EF2513BCDC00663D60 /* AR SandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AR SandboxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AB07F32513BCDC00663D60 /* AR_SandboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_SandboxUITests.swift; sourceTree = "<group>"; };
+		F7AB07F52513BCDC00663D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7AB07CB2513BCD800663D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB07E12513BCDB00663D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB07EC2513BCDC00663D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7AB07C52513BCD800663D60 = {
+			isa = PBXGroup;
+			children = (
+				F7AB07D02513BCD800663D60 /* AR Sandbox */,
+				F7AB07E72513BCDC00663D60 /* AR SandboxTests */,
+				F7AB07F22513BCDC00663D60 /* AR SandboxUITests */,
+				F7AB07CF2513BCD800663D60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7AB07CF2513BCD800663D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7AB07CE2513BCD800663D60 /* AR Sandbox.app */,
+				F7AB07E42513BCDB00663D60 /* AR SandboxTests.xctest */,
+				F7AB07EF2513BCDC00663D60 /* AR SandboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7AB07D02513BCD800663D60 /* AR Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				F7AB07D12513BCD900663D60 /* AppDelegate.swift */,
+				F7AB07D32513BCD900663D60 /* ContentView.swift */,
+				F7AB07D52513BCD900663D60 /* Experience.rcproject */,
+				F7AB07D72513BCDB00663D60 /* Assets.xcassets */,
+				F7AB07DC2513BCDB00663D60 /* LaunchScreen.storyboard */,
+				F7AB07DF2513BCDB00663D60 /* Info.plist */,
+				F7AB07D92513BCDB00663D60 /* Preview Content */,
+			);
+			path = "AR Sandbox";
+			sourceTree = "<group>";
+		};
+		F7AB07D92513BCDB00663D60 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F7AB07DA2513BCDB00663D60 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7AB07E72513BCDC00663D60 /* AR SandboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7AB07E82513BCDC00663D60 /* AR_SandboxTests.swift */,
+				F7AB07EA2513BCDC00663D60 /* Info.plist */,
+			);
+			path = "AR SandboxTests";
+			sourceTree = "<group>";
+		};
+		F7AB07F22513BCDC00663D60 /* AR SandboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7AB07F32513BCDC00663D60 /* AR_SandboxUITests.swift */,
+				F7AB07F52513BCDC00663D60 /* Info.plist */,
+			);
+			path = "AR SandboxUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7AB07CD2513BCD800663D60 /* AR Sandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AB07F82513BCDC00663D60 /* Build configuration list for PBXNativeTarget "AR Sandbox" */;
+			buildPhases = (
+				F7AB07CA2513BCD800663D60 /* Sources */,
+				F7AB07CB2513BCD800663D60 /* Frameworks */,
+				F7AB07CC2513BCD800663D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AR Sandbox";
+			productName = "AR Sandbox";
+			productReference = F7AB07CE2513BCD800663D60 /* AR Sandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7AB07E32513BCDB00663D60 /* AR SandboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AB07FB2513BCDC00663D60 /* Build configuration list for PBXNativeTarget "AR SandboxTests" */;
+			buildPhases = (
+				F7AB07E02513BCDB00663D60 /* Sources */,
+				F7AB07E12513BCDB00663D60 /* Frameworks */,
+				F7AB07E22513BCDB00663D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7AB07E62513BCDC00663D60 /* PBXTargetDependency */,
+			);
+			name = "AR SandboxTests";
+			productName = "AR SandboxTests";
+			productReference = F7AB07E42513BCDB00663D60 /* AR SandboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7AB07EE2513BCDC00663D60 /* AR SandboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AB07FE2513BCDC00663D60 /* Build configuration list for PBXNativeTarget "AR SandboxUITests" */;
+			buildPhases = (
+				F7AB07EB2513BCDC00663D60 /* Sources */,
+				F7AB07EC2513BCDC00663D60 /* Frameworks */,
+				F7AB07ED2513BCDC00663D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7AB07F12513BCDC00663D60 /* PBXTargetDependency */,
+			);
+			name = "AR SandboxUITests";
+			productName = "AR SandboxUITests";
+			productReference = F7AB07EF2513BCDC00663D60 /* AR SandboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7AB07C62513BCD800663D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Elias Lankinen";
+				TargetAttributes = {
+					F7AB07CD2513BCD800663D60 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					F7AB07E32513BCDB00663D60 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F7AB07CD2513BCD800663D60;
+					};
+					F7AB07EE2513BCDC00663D60 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = F7AB07CD2513BCD800663D60;
+					};
+				};
+			};
+			buildConfigurationList = F7AB07C92513BCD800663D60 /* Build configuration list for PBXProject "AR Sandbox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7AB07C52513BCD800663D60;
+			productRefGroup = F7AB07CF2513BCD800663D60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7AB07CD2513BCD800663D60 /* AR Sandbox */,
+				F7AB07E32513BCDB00663D60 /* AR SandboxTests */,
+				F7AB07EE2513BCDC00663D60 /* AR SandboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7AB07CC2513BCD800663D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AB07DE2513BCDB00663D60 /* LaunchScreen.storyboard in Resources */,
+				F7AB07DB2513BCDB00663D60 /* Preview Assets.xcassets in Resources */,
+				F7AB07D82513BCDB00663D60 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB07E22513BCDB00663D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB07ED2513BCDC00663D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7AB07CA2513BCD800663D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AB07D42513BCD900663D60 /* ContentView.swift in Sources */,
+				F7AB07D22513BCD900663D60 /* AppDelegate.swift in Sources */,
+				F7AB07D62513BCD900663D60 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB07E02513BCDB00663D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AB07E92513BCDC00663D60 /* AR_SandboxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AB07EB2513BCDC00663D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AB07F42513BCDC00663D60 /* AR_SandboxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7AB07E62513BCDC00663D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7AB07CD2513BCD800663D60 /* AR Sandbox */;
+			targetProxy = F7AB07E52513BCDC00663D60 /* PBXContainerItemProxy */;
+		};
+		F7AB07F12513BCDC00663D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7AB07CD2513BCD800663D60 /* AR Sandbox */;
+			targetProxy = F7AB07F02513BCDC00663D60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7AB07DC2513BCDB00663D60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7AB07DD2513BCDB00663D60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7AB07F62513BCDC00663D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7AB07F72513BCDC00663D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7AB07F92513BCDC00663D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AR Sandbox/Preview Content\"";
+				DEVELOPMENT_TEAM = P5X96NKX93;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AR Sandbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.lankinen.AR-Sandbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7AB07FA2513BCDC00663D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AR Sandbox/Preview Content\"";
+				DEVELOPMENT_TEAM = P5X96NKX93;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "AR Sandbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.lankinen.AR-Sandbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7AB07FC2513BCDC00663D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5X96NKX93;
+				INFOPLIST_FILE = "AR SandboxTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.lankinen.AR-SandboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Sandbox.app/AR Sandbox";
+			};
+			name = Debug;
+		};
+		F7AB07FD2513BCDC00663D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5X96NKX93;
+				INFOPLIST_FILE = "AR SandboxTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.lankinen.AR-SandboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AR Sandbox.app/AR Sandbox";
+			};
+			name = Release;
+		};
+		F7AB07FF2513BCDC00663D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5X96NKX93;
+				INFOPLIST_FILE = "AR SandboxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.lankinen.AR-SandboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Sandbox";
+			};
+			name = Debug;
+		};
+		F7AB08002513BCDC00663D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5X96NKX93;
+				INFOPLIST_FILE = "AR SandboxUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "xyz.lankinen.AR-SandboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AR Sandbox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7AB07C92513BCD800663D60 /* Build configuration list for PBXProject "AR Sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AB07F62513BCDC00663D60 /* Debug */,
+				F7AB07F72513BCDC00663D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AB07F82513BCDC00663D60 /* Build configuration list for PBXNativeTarget "AR Sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AB07F92513BCDC00663D60 /* Debug */,
+				F7AB07FA2513BCDC00663D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AB07FB2513BCDC00663D60 /* Build configuration list for PBXNativeTarget "AR SandboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AB07FC2513BCDC00663D60 /* Debug */,
+				F7AB07FD2513BCDC00663D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AB07FE2513BCDC00663D60 /* Build configuration list for PBXNativeTarget "AR SandboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AB07FF2513BCDC00663D60 /* Debug */,
+				F7AB08002513BCDC00663D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7AB07C62513BCD800663D60 /* Project object */;
+}
